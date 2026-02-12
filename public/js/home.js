@@ -19,29 +19,15 @@ function openApp(url) {
 
 const rngText = document.getElementById("rng-text");
 const greetings = [
-  "Soixante Sept",
-  "Bayerische Motoren Werke ist schlecht",
-  "Hello!",
   "v7 is here!",
   "Freedom",
   "The Best",
   "Welcome to the best",
-  "Welcome",
-  "こんにちは",
-  "こんにちは",
-  "こんにちは",
-  "\u004C\u0075\u006E\u0061\u0061\u0072",
-  "uhh",
-  "Merry Christmas",
-  "Merry Christmas",
-  "Merry Christmas",
-  "Merry Christmas",
-  "Merry Christmas",
-  "Merry Christmas",
-  "Merry Christmas",
-  "Merry Christmas",
-  "Merry Christmas",
-  "Merry Christmas",
+  "Vboi's Games",
+  "Vboi's Games",
+  "Vboi's Games",
+  "Vboi's Games",
+  "Vboi's Games"
 ];
 function getRandomGreeting() {
   const randomIndex = Math.floor(Math.random() * greetings.length);
